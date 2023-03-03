@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T06:17:47.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="t6iF7rh155JaGAg_fasS" version="20.8.24" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T06:27:18.611Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="buiMo5Hj5noYAtAyWeGL" version="20.8.24" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2524" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -29,8 +29,8 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-22" value="apscheduler_task tab" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=#EC521A;whiteSpace=wrap;swimlaneFillColor=default;labelBorderColor=none;labelBackgroundColor=none;rounded=1;fontFamily=Lucida Console;fillColor=#F2CC8F;shadow=0;strokeColor=#E07A5F;gradientColor=#FFB482;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="120" width="818" height="480" as="geometry" />
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-22" value="act_piggy_bank_conf" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=#EC521A;whiteSpace=wrap;swimlaneFillColor=default;labelBorderColor=none;labelBackgroundColor=none;rounded=1;fontFamily=Lucida Console;fillColor=#F2CC8F;shadow=0;strokeColor=#E07A5F;gradientColor=#FFB482;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="120" width="818" height="450" as="geometry" />
         </mxCell>
         <mxCell id="SjY3Bs3HchpYrkcp5Yg5-23" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;rounded=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-22">
           <mxGeometry y="30" width="818" height="30" as="geometry" />
@@ -40,7 +40,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-25" value="id                                     BIGINT                           NOT NULL                 AUTO_INCREMENT" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontColor=#393C56;labelBackgroundColor=none;rounded=1;strokeColor=#E07A5F;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-23">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-25" value="id                                     ObjectId                         NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;fontColor=#393C56;labelBackgroundColor=none;rounded=1;strokeColor=#E07A5F;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-23">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -53,7 +53,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-28" value="project_name                   VARCHAR(128)             NOT NULL                                                    COMMENT &#39;项目名&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-26">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-28" value="brds                    List(String)               NULL            DEFAULT NULL          COMMENT&#39;品牌类型&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-26">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -66,7 +66,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-31" value="module_name                  VARCHAR(128)             NOT NULL                                                    COMMENT &#39;模块名&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-29">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-31" value="chns                  List(String)            NULL              DEFAULT NULL                                      COMMENT&#39;渠道类型&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-29">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -79,7 +79,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-34" value="task_name                       VARCHAR(128)             NOT NULL                                                    COMMENT &#39;任务名&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-32">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-34" value="plts                       List(String)           NULL                  DEFAULT NULL                                  COMMENT &#39;设备类型&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-32">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -92,7 +92,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-37" value="trigger_id                          BIGINT                           NOT NULL                                                   COMMENT &#39;trigger_id&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-35">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-37" value="activity_type                          SMALLINT                           NOT NULL                                                   COMMENT &#39;活动类型&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-35">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -105,7 +105,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-40" value="run_time                           DATETIME(6)                 NOT NULL                                                   COMMENT &#39;任务计划执行时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-38">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-40" value="effected_at                           DATETIME(6)                 NOT NULL                                                   COMMENT &#39;活动生效时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-38">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -118,7 +118,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-43" value="last_task_duration            DECIMAL(4, 10)             NULL                                                           COMMENT &#39;任务执行耗时&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-41">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-43" value="expired_at           DATETIME(6)        NULL                                               COMMENT &#39;活动结束时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-41">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -131,7 +131,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-46" value="status                                SMALLINT                     NOT NULL                 DEFAULT 0               COMMENT &#39;任务是否启动,0:enable,1:ubable&#39;&#xa;              " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-44">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-46" value="activity_status                                SMALLINT                     NOT NULL                 DEFAULT 0               COMMENT &#39;任务是否启动,0:enable,1:ubable&#39;              " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-44">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -144,7 +144,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-49" value="last_task_status                SMALLINT                     NOT NULL                 DEFAULT 0               COMMENT &#39;上次任务执行结果,0:fail,1:success&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-47">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-49" value="operator                VARCHAR(128)                     NOT NULL                 DEFAULT &#39;admin&#39;               COMMENT &#39;操作人&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-47">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -157,7 +157,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-52" value="next_task_status               SMALLINT                     NOT NULL                 DEFAULT 0               COMMENT &#39;下次任务执行状态,0:not run,1:runnig&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;labelBackgroundColor=none;rounded=1;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-50">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-52" value="early_break_status               SMALLINT                     NOT NULL                 DEFAULT 0               COMMENT &#39;是否允许提前打碎&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;labelBackgroundColor=none;rounded=1;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-50">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -170,7 +170,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-55" value="user_name                        VARCHAR(128)             NOT NULL                                                   COMMENT &#39;用户名&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-53">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-55" value="desc                        VARCHAR(2048)             NOT NULL                                                   COMMENT &#39;活动描述&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-53">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -183,7 +183,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-58" value="fail_reason                        VARCHAR(10240)         NULL                                                            COMMENT &#39;失败原因&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-56">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-58" value="rebate_rules                        List(String)         NULL                                                            COMMENT &#39;返利规则&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-56">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -196,7 +196,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-61" value="description                        VARCHAR(1024)           NOT NULL                                                   COMMENT &#39;任务描述&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-59">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-61" value="created_at                         DATETIME(6)            NOT NULL                                                   COMMENT &#39;创建时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-59">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -209,20 +209,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-64" value="created_at                        DATETIME(6)                 NOT NULL                                                   COMMENT &#39;创建时间&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-62">
-          <mxGeometry x="30" width="788" height="30" as="geometry">
-            <mxRectangle width="788" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-65" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;rounded=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-22">
-          <mxGeometry y="450" width="818" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-66" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;rounded=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-65">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-67" value="updated_at                       DATETIME(6)                 NOT NULL                                                   COMMENT &#39;更新时间&#39;&#xa; " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-65">
+        <mxCell id="SjY3Bs3HchpYrkcp5Yg5-64" value="updated_at                        DATETIME(6)                 NOT NULL                                                   COMMENT &#39;更新时间&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;strokeColor=#E07A5F;rounded=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="SjY3Bs3HchpYrkcp5Yg5-62">
           <mxGeometry x="30" width="788" height="30" as="geometry">
             <mxRectangle width="788" height="30" as="alternateBounds" />
           </mxGeometry>
