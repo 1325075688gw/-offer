@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T03:47:56.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GQNlEuZ1ZmXGARqSmjel" version="20.8.24" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T06:36:25.463Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="dhbb2MnfQyR60G5gSEeQ" version="20.8.24" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="存钱罐">
     <mxGraphModel dx="2074" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -572,11 +572,24 @@
             <mxPoint x="550" y="811" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="sMY9MiKapo26OPZxdDdL-14" value="1:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SjY3Bs3HchpYrkcp5Yg5-207">
+          <mxGeometry x="0.2676" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SjY3Bs3HchpYrkcp5Yg5-209" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SjY3Bs3HchpYrkcp5Yg5-183" target="SjY3Bs3HchpYrkcp5Yg5-76" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="500" y="808" as="sourcePoint" />
             <mxPoint x="600" y="708" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sMY9MiKapo26OPZxdDdL-13" value="1:n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SjY3Bs3HchpYrkcp5Yg5-209">
+          <mxGeometry x="0.1681" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMY9MiKapo26OPZxdDdL-15" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MySQL&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#1443FF;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="606" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
